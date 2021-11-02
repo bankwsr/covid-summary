@@ -7,6 +7,8 @@ const App = () => {
         content:'', author:''
     };
 
+    console.log('test');
+
     const [note, setNote] = useState(startNote);
     const [editNote, seteditNote] = useState(null);
     const [allNotes, setAllNotes] = useState([]);
